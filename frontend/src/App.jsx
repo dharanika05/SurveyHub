@@ -119,7 +119,7 @@ function App() {
             <div className="question" key={q._id}>
               <div className="question-heading">
                 <span className="number">0{index + 1}</span>
-                <h3>{q.question}</h3>
+                <h3>{q.questionText}</h3>
               </div>
 
               <div className="options">
