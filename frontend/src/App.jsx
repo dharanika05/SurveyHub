@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "http://localhost:5000/api/survey";
+const API = "https://surveyhub-4.onrender.com/api/survey";
 
 function App() {
   const [questions, setQuestions] = useState([]);
